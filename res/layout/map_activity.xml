@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent" >
+<ImageView android:id="@+id/map1"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fitsSystemWindows="true"
+android:src="@drawable/shenkarmap_1"
+android:scaleType="matrix" >
+</ImageView>
+
+<ImageView
+    android:id="@+id/testicon1"
+    android:layout_width="352dp"
+    android:layout_height="508dp"
+    android:scaleType="matrix"
+    android:src="@drawable/com_facebook_button_check_on" />
+
+</FrameLayout>
